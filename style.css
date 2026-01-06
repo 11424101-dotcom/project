@@ -1,0 +1,18 @@
+body {
+  background: #111;
+  color: white;
+  text-align: center;
+  font-family: Arial;
+}
+
+video, canvas {
+  width: 640px;
+  height: 480px;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+canvas {
+  pointer-events: none;
+}
